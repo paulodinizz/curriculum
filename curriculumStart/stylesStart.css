@@ -16,15 +16,14 @@ body {
 
 .bg {
   position: absolute;
-  top: 0px;
   left: -30px;
   width: calc(100vw + 60px);
-  height: calc(100vh + 60px);
   filter: blur(0px);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
+  background-repeat: no-repeat;
 }
 
 .loadingText {
