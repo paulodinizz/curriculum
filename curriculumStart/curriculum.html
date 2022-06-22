@@ -5,33 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesStart.css">
 </head>
 <body>
     <section class="bg">
         <img src="background2.jpg" usemap="#image-map">
         <map name="image-map">
-            <area target="" alt="Click to see more about me" title="Click to see more about me" href="" coords="1327,697,1658,717,1653,949,1638,1033,1509,1000,1473,949,1439,939,1402,948,1382,965,1378,987,1367,1000,1238,980,1280,936,1307,904" shape="poly">
-            <area target="" alt="Click to see my contact information" title="Click to see my contact information" href="" coords="1199,917,1249,905,1187,866,1134,875" shape="poly">
-            <g>
-                <area target="" title="Click to see some project i created" href="" coords="446,58,608,67,602,336,449,336" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="639,89,800,96,793,363,729,365,710,326,676,321,656,326,642,352,639,365" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="429,338,425,189,167,167,174,333" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="106,153,93,328,149,319,162,174" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="295,346,300,487,554,472,554,348" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="178,350,188,335,188,394,254,396,256,499,181,509,166,548" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="564,387,568,499,595,501,581,469,574,448,578,435,625,401,635,387" shape="poly">
-                <area target="" title="Click to see some project i created" href="" coords="729,381,761,387,761,426" shape="poly">
+            <area title="Click to see more about me" href="" coords="1327,697,1658,717,1653,949,1638,1033,1509,1000,1473,949,1439,939,1402,948,1382,965,1378,987,1367,1000,1238,980,1280,936,1307,904" shape="poly">
+            <a  data-toggle="modal" data-target="#cellphoneModalCenter">
+                <area title="Click to see my contact information" href="" coords="1199,917,1249,905,1187,866,1134,875" shape="poly">
+            </a>
+            <g title="Click to see some project i created">
+                <area href="" coords="446,58,608,67,602,336,449,336" shape="poly">
+                <area href="" coords="639,89,800,96,793,363,729,365,710,326,676,321,656,326,642,352,639,365" shape="poly">
+                <area href="" coords="429,338,425,189,167,167,174,333" shape="poly">
+                <area href="" coords="106,153,93,328,149,319,162,174" shape="poly">
+                <area href="" coords="295,346,300,487,554,472,554,348" shape="poly">
+                <area href="" coords="178,350,188,335,188,394,254,396,256,499,181,509,166,548" shape="poly">
+                <area href="" coords="564,387,568,499,595,501,581,469,574,448,578,435,625,401,635,387" shape="poly">
+                <area href="" coords="729,381,761,387,761,426" shape="poly">
             </g>
-            <g>
-                <area target="" title="Click to see my skills" href="" coords="1344,158,1436,151,1436,219,1475,214,1472,327,1375,324,1378,259,1341,261" shape="poly">
-                <area target="" title="Click to see my skills" href="" coords="1490,300,1655,295,1657,90,1494,103" shape="poly">
+            <g title="Click to see my skills">
+                <area href="" coords="1344,158,1436,151,1436,219,1475,214,1472,327,1375,324,1378,259,1341,261" shape="poly">
+                <area href="" coords="1490,300,1655,295,1657,90,1494,103" shape="poly">
             </g>
-            <area target="" title="Click to play some music" href="" coords="293,553,306,548,323,543,332,543,337,530,330,519,315,513,296,514,279,513,259,519,249,530,237,536,227,538,225,548,228,553,239,557,249,558,256,567,266,572,278,574,288,567" shape="poly">
-            <area target="" alt="Click to play some music" title="Click to play some music" href="" coords="1441,1042,1409,1038,1394,1028,1382,1021,1377,1004,1378,977,1392,957,1416,942,1436,940,1456,943,1473,953,1490,970,1504,986,1507,1001,1521,1003,1540,1003,1555,1011,1575,1018,1597,1025,1619,1040,1631,1055,1633,1069,1618,1075,1602,1079,1560,1079,1453,1079,1439,1065" shape="poly">
+            <area href="" title="Click to play some music" coords="293,553,306,548,323,543,332,543,337,530,330,519,315,513,296,514,279,513,259,519,249,530,237,536,227,538,225,548,228,553,239,557,249,558,256,567,266,572,278,574,288,567" shape="poly">
+            <area href="" title="Click to play some music" coords="1441,1042,1409,1038,1394,1028,1382,1021,1377,1004,1378,977,1392,957,1416,942,1436,940,1456,943,1473,953,1490,970,1504,986,1507,1001,1521,1003,1540,1003,1555,1011,1575,1018,1597,1025,1619,1040,1631,1055,1633,1069,1618,1075,1602,1079,1560,1079,1453,1079,1439,1065" shape="poly">
         </map>
     </section>
+    <div class="modal" id="cellphoneModalCenter" tabindex="-1" role="dialog" aria-labelledby="cellphoneModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="maoCel.png" usemap="#cellphone-map" class="teste">
+                    <map name="cellphone-map">
+                        <g>
+                            <area target="" title="Send me a message" href="" coords="312,261,14" shape="circle">
+                            <area target="" title="Send me a message" href="" coords="297,274,326,281" shape="rect">
+                        </g>
+                        <g>
+                            <area target="" title="Call me" href="" coords="268,261,13" shape="circle">
+                            <area target="" title="Call me" href="" coords="255,275,282,280" shape="rect">
+                        </g>
+                        <g>
+                            <area target="" title="If you want see my instagram click here" href="" coords="223,261,13" shape="circle">
+                            <area target="" title="If you want see my instagram click here" href="" coords="208,281,239,274" shape="rect">
+                        </g>
+                        <g>
+                            <area target="" title="Contact me by email" href="" coords="180,261,13" shape="circle">
+                            <area target="" title="" href="Contact me by email" coords="171,280,190,275" shape="rect">
+                        </g>
+                        <g>
+                            <area target="" title="" href="" coords="245,399,13" shape="circle">
+                        </g>
+                    </map>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="loadingText">0%</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./scriptStart.js"></script>
 </body>
 </html>
