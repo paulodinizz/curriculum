@@ -36,10 +36,16 @@
     <div id="cellphone" class="cellphone" >
         <img src="maoCel.png" usemap="#cellphone-map" class="teste">
         <map name="cellphone-map">
-        <a data-toggle="modal" data-target="#whatsappModalCenter">
-            <area target="" title="Send me a message" href="" coords="207,172,13" shape="circle">
-            <area target="" title="Send me a message" href="" coords="297,274,326,281" shape="rect">
-        </a>
+            <a data-toggle="modal" data-target="#whatsappModalCenter">
+                <area target="" title="Send me a message" href="" coords="207,172,13" shape="circle">
+                <area target="" title="Send me a message" href="" coords="297,274,326,281" shape="rect">
+            </a>
+            <area target="" alt="" title="" href="mailto:paulodiniz7001@gmail.com" coords="74,172,13" shape="circle">
+            <area target="" alt="" title="" href="mailto:paulodiniz7001@gmail.com" coords="66,191,85,186" shape="rect">
+            <a data-toggle="modal" data-target="#instagramModalCenter">
+                <area target="" alt="" title="" href="" coords="119,172,13" shape="circle">
+                <area target="" alt="" title="" href="" coords="105,191,135,185" shape="rect">
+            </a>
     </map>
     </div>
     <div class="modal" id="whatsappModalCenter" tabindex="-1" role="dialog" aria-labelledby="whatsappModalCenterTitle" aria-hidden="true">
@@ -88,18 +94,58 @@
                         <div class="triangulo"></div>
                         <p style="padding-left: 10px; padding-top: 3px">Let work together</p>
                     </div>
-                    <div class="footer" style="padding-top: 400px;">
-                        <div class="input">
-                            <div class="row">
-                                <div class="col">
-                                    <p><i class="fa-solid fa-face-grin" style="padding-right: 10px;"></i>Message</p>
+                    <div class="footer" style="padding-top: 280px;">
+                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5537999561230">
+                            <div class="input">
+                                <div class="row">
+                                    <div class="col">
+                                        <p><i class="fa-solid fa-face-grin" style="padding-right: 10px;"></i>Message</p>
+                                    </div>
+                                    <div class="col-auto" style="padding-right: 30px;">
+                                        <i class="fa-solid fa-camera"></i>
+                                    </div>
                                 </div>
-                                <div class="col-auto" style="padding-right: 30px;">
-                                    <i class="fa-solid fa-camera"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="instagramModalCenter" tabindex="-1" role="dialog" aria-labelledby="instagramModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <section class="profile">
+                        <h5>paulo_diniz23</h5>
+                        <div class="row" style="display: flex; align-items: center; justify-content: center; line-height: 0;">
+                            <div class="col-auto">
+                                <div class="circle-image3"></div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="teste">
+                                    <div class="d-flex justify-content-around" style="font-size: 13px; color: #000;">
+                                        <b><p>1.500</p></b>
+                                        <b><p>2500</p></b>
+                                        <b><p>500</p></b>
+                                    </div>
+                                    <div class="d-flex justify-content-around" style="font-size: 10px; color: #000; padding-left: 15px;">
+                                        <p style="padding-left: 2px;">post</p>
+                                        <p style="padding-left: 20px;">followers</p>
+                                        <p>following</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="profileInfo" style="padding-top: 10px;">
+                            <h6>Paulo Diniz</h6>
+                            <p style="font-size: 13px;">Let work together</p>
+                            <div class="messageButton" style="display:flex; align-items:center; justify-content:center; color: #000; padding-top:12px;">
+                                <p>See Profile</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </section>
                 </div>
             </div>
         </div>

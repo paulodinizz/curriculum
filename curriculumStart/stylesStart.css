@@ -79,7 +79,7 @@ ul li:hover {
 }
 .containerChat{
   background-color: #121B22;
-  height:480px;
+  height:360px;
 }
 .circle-image{
   width: 40px;
@@ -111,7 +111,7 @@ ul li:hover {
 
 .containerChat2{
   background-image: url('../curriculumStart/whatsappBackground.jpg');
-  height:510px;
+  height:390px;
 }
 
 .input{
@@ -165,4 +165,33 @@ ul li:hover {
 }
 .cellphone.show {
   transform: rotateZ(0deg);
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.circle-image3{
+  width: 70px;
+  height: 70px;
+  background-image: url('../curriculumStart/myPhoto.png');
+  background-size: cover;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.instagram li{
+  cursor: none;
+}
+.messageButton{
+  background-color: rgba(253, 253, 253, 1);
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  color: #E9EDEF;
+  cursor: pointer;
 }
