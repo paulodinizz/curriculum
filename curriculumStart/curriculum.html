@@ -14,7 +14,7 @@
         <img src="background2.jpg" usemap="#image-map">
         <map name="image-map">
             <area title="Click to see more about me" href="" coords="1327,697,1658,717,1653,949,1638,1033,1509,1000,1473,949,1439,939,1402,948,1382,965,1378,987,1367,1000,1238,980,1280,936,1307,904" shape="poly">
-            <area title="Click to see my contact information" href="#cellphone" coords="1199,917,1249,905,1187,866,1134,875" shape="poly">
+            <area title="Press enter to see my contact information" href="#cellphone" coords="1199,917,1249,905,1187,866,1134,875" shape="poly">
             <g title="Click to see some project i created">
                 <area href="" coords="446,58,608,67,602,336,449,336" shape="poly">
                 <area href="" coords="639,89,800,96,793,363,729,365,710,326,676,321,656,326,642,352,639,365" shape="poly">
@@ -29,55 +29,26 @@
                 <area href="" coords="1344,158,1436,151,1436,219,1475,214,1472,327,1375,324,1378,259,1341,261" shape="poly">
                 <area href="" coords="1490,300,1655,295,1657,90,1494,103" shape="poly">
             </g>
-            <area href="" title="Click to play some music" coords="293,553,306,548,323,543,332,543,337,530,330,519,315,513,296,514,279,513,259,519,249,530,237,536,227,538,225,548,228,553,239,557,249,558,256,567,266,572,278,574,288,567" shape="poly">
-            <area href="" title="Click to play some music" coords="1441,1042,1409,1038,1394,1028,1382,1021,1377,1004,1378,977,1392,957,1416,942,1436,940,1456,943,1473,953,1490,970,1504,986,1507,1001,1521,1003,1540,1003,1555,1011,1575,1018,1597,1025,1619,1040,1631,1055,1633,1069,1618,1075,1602,1079,1560,1079,1453,1079,1439,1065" shape="poly">
+            <g >
+                <area href="" title="Press K to play some music" coords="293,553,306,548,323,543,332,543,337,530,330,519,315,513,296,514,279,513,259,519,249,530,237,536,227,538,225,548,228,553,239,557,249,558,256,567,266,572,278,574,288,567" shape="poly">
+                <area href="" title="Press K to play some music" coords="1441,1042,1409,1038,1394,1028,1382,1021,1377,1004,1378,977,1392,957,1416,942,1436,940,1456,943,1473,953,1490,970,1504,986,1507,1001,1521,1003,1540,1003,1555,1011,1575,1018,1597,1025,1619,1040,1631,1055,1633,1069,1618,1075,1602,1079,1560,1079,1453,1079,1439,1065" shape="poly">
+            </g>
         </map>
     </section>
     <div id="cellphone" class="cellphone" >
         <img src="maoCel.png" usemap="#cellphone-map" class="teste">
         <map name="cellphone-map">
-            <a data-toggle="modal" data-target="#whatsappModalCenter">
+            <a data-toggle="modal" data-target="#chatPauloModalCenter">
                 <area target="" title="Send me a message" href="" coords="207,172,13" shape="circle">
                 <area target="" title="Send me a message" href="" coords="297,274,326,281" shape="rect">
             </a>
-            <area target="" alt="" title="" href="mailto:paulodiniz7001@gmail.com" coords="74,172,13" shape="circle">
-            <area target="" alt="" title="" href="mailto:paulodiniz7001@gmail.com" coords="66,191,85,186" shape="rect">
+            <area target="" alt="" title="" href="" coords="74,172,13" shape="circle">
+            <area target="" alt="" title="" href="" coords="66,191,85,186" shape="rect">
             <a data-toggle="modal" data-target="#instagramModalCenter">
                 <area target="" alt="" title="" href="" coords="119,172,13" shape="circle">
                 <area target="" alt="" title="" href="" coords="105,191,135,185" shape="rect">
             </a>
     </map>
-    </div>
-    <div class="modal" id="whatsappModalCenter" tabindex="-1" role="dialog" aria-labelledby="whatsappModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-sm" role="document">
-            <div class="modal-content">
-                <div class="modal-body top">
-                    <h6 style="color: #6D7C85;">WhatsApp</h6>
-                    <div class="container">
-                        <div class="row">
-                            <ul>
-                                <li style="color: #09725F;border-bottom: 2px solid #09725F; padding-bottom: 13px;">CONVERSAS</li>
-                                <li>STATUS</li>
-                                <li>CHAMADAS</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="containerChat">
-                    <a data-toggle="modal" data-target="#chatPauloModalCenter">
-                        <div class="row mainChat" style="padding-left: 10px;">
-                            <div class="col-1 col-md-1" style="line-height: 0.8; padding-top: 10px; padding-right: 40px;">
-                                <div class="circle-image"></div>
-                            </div>
-                            <div class="chat col-12 col-md-8" style="line-height: 0.8; padding-top: 10px; ">
-                                <h6 class="col" style="color: #D0D8DC; padding-left: 0;">Paulo</h6>
-                                <p style="color: #6D7C85;">Let work together</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
     </div>
     <div class="modal" id="chatPauloModalCenter" tabindex="-1" role="dialog" aria-labelledby="chatPauloModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-sm" role="document">
@@ -141,15 +112,42 @@
                             <h6>Paulo Diniz</h6>
                             <p style="font-size: 13px;">Let work together</p>
                             <div class="messageButton" style="display:flex; align-items:center; justify-content:center; color: #000; padding-top:12px;">
-                                <p>See Profile</p>
+                                <a target="_blank" href="https://www.instagram.com/paulo_diniz23/"><p>See Profile</p></a>
                             </div>
                         </div>
                         <hr>
+                        <div class="row" style="text-align: center; cursor: pointer;">
+                            <div class="col" style="color: #000; border-bottom: 2px solid #000; padding-bottom: 20px;">
+                                <i class="fas fa-th"></i>
+                            </div>
+                            <div class="col" style="border-bottom: 2px solid #E5E5E5; padding-bottom: 20px;">
+                                <i class="far fa-id-badge" ></i>
+                            </div>
+                        </div>
+                        <div class="profileImage" >
+                            <img src="myPhoto.png" alt="" style="width: 100px; cursor: pointer;">
+                            <img src="myPhoto.png" alt="" style="width: 100px; cursor: pointer;">
+                        </div>
+                        <br><br><br><br><br><br><br><br><br>
+                        <footer style="text-align: center;">
+                            <div class="row">
+                                <div class="col"><a href="#"><i class="fas fa-home"></i></a></div>
+                                <div class="col"><a href="#"><i class="fas fa-search"></i></a></div>
+                                <div class="col"><a href="#"><i class="far fa-play-circle"></i></a></div>
+                                <div class="col"><a href="#"><i class="fas fa-shopping-bag"></i></a></div>
+                            </div>
+                        </footer>
                     </section>
                 </div>
             </div>
         </div>
     </div>
+    <div class="sound row align-items-center" id="soundBar">
+        <a onclick="document.getElementById('player').pause()" class="fa-solid fa-pause col-sm"></a>
+        <a onclick="document.getElementById('player').play()" class="fa-solid fa-play col-sm"></a>
+        <input type="range" id="weight" min="0" value="0.5" max="1" step="0.01" onchange="document.getElementById('player').volume=this.value">
+    </div>
+    <audio id="player" src="../videoplayback.mp4"></audio>
     <!-- <div class="loadingText">0%</div> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

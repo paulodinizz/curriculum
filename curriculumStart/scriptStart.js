@@ -28,3 +28,11 @@ $(document).ready(function() {
       }
   });
 });
+
+$(document).ready(function() {
+  $(document).on('keypress', function(e) {
+      if(e.keyCode == 107){
+          document.querySelector('.sound').classList.toggle('show')
+      }
+  });
+});

@@ -195,3 +195,41 @@ a:hover{
   color: #E9EDEF;
   cursor: pointer;
 }
+
+.sound{
+  position: absolute;
+  top: 95%;
+  left: 10px;
+  width: 250px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  z-index: -1;
+}
+
+.sound.show{
+  z-index: 1;
+}
+
+.sound a:hover, .sound input:hover{
+  cursor: pointer;
+}
+
+.profileImage{
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-gap: 1em;
+}
+
+footer i {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.messageButton a{
+  text-decoration: none;
+  color: #000;
+}
