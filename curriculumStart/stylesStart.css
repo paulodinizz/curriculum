@@ -33,25 +33,6 @@ body {
   color: #fff;
 }
 
-.modal-content-Cellphone{
-  width: 100%;
-  height: 80%; 
-  display: flex;
-  justify-content: bottom;
-  align-items: center;
-  flex-direction: column;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.modal-dialog-Cellphone{
-  position: fixed;
-  top: 35%;
-  right: auto;
-  left: 50%;
-  bottom: 0;
-}
-
 .modal{
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
@@ -63,20 +44,6 @@ body {
   height: 80px;
 }
 
-ul{
-  list-style: none;
-  
-}
-ul li {
-  color: #6D7C85;
-  display: inline;
-  padding: 4px;
-}
-
-ul li:hover {
-  cursor: pointer;
-  
-}
 .containerChat{
   background-color: #121B22;
   height:360px;
@@ -233,3 +200,70 @@ footer i {
   text-decoration: none;
   color: #000;
 }
+
+.modal-header{
+  background-color: #24292F;
+  display: flex; 
+  justify-content:space-between; 
+  text-align: center; 
+  align-items: center;
+}
+.circle-imageGit{
+  width: 80px;
+  height: 80px;
+  background-image: url('../curriculumStart/myPhoto.png');
+  background-size: cover;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.buttonGit{
+  background-color: #F7F8FA;
+  border: thin solid #EAEBED;
+  border-radius: 5px;
+  box-shadow: 1px 3px #EAEBED;
+  width: 450px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.readme, .pinned{
+  border: 1px solid #EEF0EF;
+  border-radius: 10px;
+}
+
+
+#gitHubModalCenter .modal-body{
+  max-height: calc(100vh - 300px);
+}
+
+.list ul li{
+  display: inline;
+  padding: 4px;
+  padding-bottom: 15px;
+}
+
+.public{
+  border: 1px solid #EEF0EF;
+  padding: .12em .5em;
+  border-radius: 10px;
+}
+
+.language{
+  display: inline-block !important;
+}
+.repo-language-color {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+
