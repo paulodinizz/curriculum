@@ -13,7 +13,6 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  
 }
 
 .bg {
@@ -238,7 +237,7 @@ footer i {
 }
 
 
-#gitHubModalCenter .modal-body{
+#gitHubModalCenter .modal-body, #gitHubRepoModalCenter .modal-body{
   max-height: calc(100vh - 300px);
 }
 

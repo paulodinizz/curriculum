@@ -169,8 +169,8 @@
                         </div>
                         <div class="list" style="padding-left: 35px; padding-top: 40px; font-size: 16px;">
                             <ul >
-                                <b><li style="color: #000; border-bottom: 2px solid #F7A691;">Overview</li></b>
-                                <li style="color: #000;">Repositories</li>
+                                <b><li style="color: #000; border-bottom: 2px solid #F7A691; cursor: pointer;">Overview</li></b>
+                                <a data-toggle="modal" data-target="#gitHubRepoModalCenter"><li style="color: #000; cursor: pointer;">Repositories</li></a>
                             </ul>
                         </div>
                     </section>
@@ -236,6 +236,115 @@
                             <span class="repo-language-color" style="background-color: #563d7c"></span>
                             <span itemprop="programmingLanguage">CSS</span>
                         </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal gitCell" id="gitHubRepoModalCenter" tabindex="-1" role="dialog" aria-labelledby="gitHubRepoModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <i style="filter: invert(1);"class="fa-solid fa-bars"></i>
+                    <svg style="filter: invert(1);" height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+                    <i style="filter: invert(1);" class="fa-solid fa-bell"></i>
+                </div>
+                <div class="modal-body">
+                    <section class="topGit">
+                        <div class="row" style="padding-left: 15px;">
+                            <div class="circle-imageGit col col-lg-2"></div>
+                            <div class="col" style="line-height: 0.5; padding-top: 20px; font-size: 25px;">
+                                <b><p>Paulo Henrique Diniz</p></b>
+                                <small><p style="color: #687078; font-size:20px;">paulodinizz</p></small>
+                            </div>
+                        </div>
+                        <div style="padding-left: 8px; padding-top: 40px;">
+                            <div class="buttonGit">See Profile</div>
+                        </div>
+                        <div class="list" style="padding-left: 35px; padding-top: 40px; font-size: 16px;">
+                            <ul >
+                                <a data-toggle="modal" data-target="#gitHubRepoModalCenter"><li style="color: #000; cursor: pointer;">Overview</li></a>
+                                <b ><li style="color: #000;border-bottom: 2px solid #F7A691; cursor: pointer;">Repositories</li></b>
+                            </ul>
+                        </div>
+                    </section>
+                    <br>
+                    <section class="repositories">
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="firstRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/curriculum" style="margin-left: 10px">curriculum</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <p style="margin-left: 10px; font-size: 14px; margin-top: 10px;">I haven't finished this project yet</p>
+                            <span class="repo-language-color" style="background-color: #e34c26;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">HTML</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="secondRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/locationFinalProject" style="margin-left: 10px">locationFinalProject</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <p style="margin-left: 10px; font-size: 14px; margin-top: 10px;">An interactive map that serves to show the location of a company's offices</p>
+                            <span class="repo-language-color" style="background-color: #e34c26;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">HTML</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="thirtyRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/noiserSneaker" style="margin-left: 10px">noiserSneaker</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <p style="margin-left: 10px; font-size: 14px; margin-top: 10px;">I'm developing this sneaker store project using HTML/CSS/JAVASCRIPT and some bootstrap functionality. project is not finished yet</p>
+                            <span class="repo-language-color" style="background-color: #563d7c;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">CSS</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="fourthRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/exerciciosC" style="margin-left: 10px">exerciciosC</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <br><br>
+                            <span class="repo-language-color" style="background-color: #555555;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">C</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="fifthRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/hiddenSearchBar" style="margin-left: 10px">hiddenSearchBar</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <br><br>
+                            <span class="repo-language-color" style="background-color: #563d7c;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">CSS</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="sixtyRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/rotatingNavigation" style="margin-left: 10px">rotatingNavigation</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <br><br>
+                            <span class="repo-language-color" style="background-color: #e34c26;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">HTML</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="seventhRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/progressSteps" style="margin-left: 10px">progressSteps</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <br><br>
+                            <span class="repo-language-color" style="background-color: #563d7c;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">CSS</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="eigthRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/expandingCards" style="margin-left: 10px">expandingCards</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <br><br>
+                            <span class="repo-language-color" style="background-color: #e34c26;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">HTML</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
+                        <div class="ninethRepo">
+                            <a target="_blank" href="https://github.com/paulodinizz/landingPage" style="margin-left: 10px">landingPage</a>
+                            <span class="public" style="margin-left: 10px">Public</span>
+                            <br><br>
+                            <span class="repo-language-color" style="background-color: #563d7c;margin-left: 10px;"></span>
+                            <span itemprop="programmingLanguage">CSS</span>
+                        </div>
+                        <hr style="margin-left: 10px; margin-right: 10px;">
                     </section>
                 </div>
             </div>

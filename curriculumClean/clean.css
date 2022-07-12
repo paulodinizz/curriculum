@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@font-face {
+    font-family: 'Asap Condensed';
+    src: url('assets/asap-condensed-bold.ttf') format('truetype');
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #202020;
+}
+
+.blurCenter{
+    position: absolute;
+    width: 1580.17px;
+    height: 430.03px;
+    left: 62.96px;
+    top: 412.63px;
+
+    background: #3b4fff;
+    opacity: 0.2;
+    border: 1px solid #161516;
+    filter: blur(420px);
+    transform: rotate(-0.68deg);
+}
+.blurTopRight{
+    position: absolute;
+    width: 1325.45px;
+    height: 331.81px;
+    left: 1817.03px;
+    top: 241.4px;
+
+    background: #3b4fff;
+    opacity: 0.2;
+    border: 1px solid #161516;
+    filter: blur(420px);
+    transform: matrix(-0.99, -0.11, -0.11, 0.99, 0, 0);
+}
+.blurBottomRight{
+    position: absolute;
+    width: 459.89px;
+    height: 251.02px;
+    left: 1861.12px;
+    top: 617.71px;
+
+    background: #3b4fff;
+    opacity: 0.2;
+    border: 1px solid #161516;
+    filter: blur(400px);
+    transform: matrix(-0.93, -0.36, -0.36, 0.93, 0, 0);
+}
+.blurTopLeft{
+    position: absolute;
+    width: 648.37px;
+    height: 240.99px;
+    left: 187px;
+    top: 387.42px;
+
+    background: #3b4fff;
+    opacity: 0.2;
+    border: 1px solid #161516;
+    filter: blur(412px);
+    transform: matrix(0.96, 0.26, 0.26, -0.96, 0, 0);
+}
+ul{
+    list-style: none;
+}
+
+.home{
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 47px;
+    top: 27px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EFF5F6;
+}
+
+.about{
+    position: absolute;
+    width: 63px;
+    height: 22px;
+    left: 188px;
+    top: 27px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #EFF5F6;
+}
+
+.work{
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    left: 1564px;
+    top: 28px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EFF5F6;
+}
+
+.contact{
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 1791px;
+    top: 30px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+
+    color: #EFF5F7;
+}
+
+.subTextTopLeft{
+    position: absolute;
+    width: 95px;
+    height: 46px;
+    left: 547px;
+    top: 334px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 46px;
+
+
+    color: #5b8ce8;
+}
+
+.textCenter{
+    position: absolute;
+    width: 739px;
+    height: 146px;
+    left: 615px;
+    top: 389px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 124px;
+    line-height: 146px;
+
+
+    color: #E4EEF1;
+}
+
+.subTextBottomCenter{
+    position: absolute;
+    width: 456px;
+    height: 32px;
+    left: 820px;
+    top: 571px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+
+
+    color: #5670b9;
+}
+
+.gitHub{
+    position: absolute;
+    left: 4.53%;
+    right: 94.53%;
+    top: 82.54%;
+    bottom: 15.88%;
+}
+
+.linkedin1{
+    position: absolute;
+    left: 6.77%;
+    right: 92.97%;
+    top: 83.16%;
+    bottom: 15.88%;
+}
+.linkedin2{
+    position: absolute;
+    left: 6.77%;
+    right: 92.97%;
+    top: 82.46%;
+    bottom: 17.11%;
+}
+.linkedin3{
+    position: absolute;
+    left: 7.19%;
+    right: 92.29%;
+    top: 83.07%;
+    bottom: 15.88%;
+}
+.city{
+    position: absolute;
+    width: 154px;
+    height: 21px;
+    left: 1725px;
+    top: 83.16%;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #EFF5F6;
+
+    mix-blend-mode: normal;
+}
+.pinLocation{
+    position: absolute;
+    width: 31px;
+    height: 36px;
+    left: 1689px;
+    top: 81.50%
+}
+.pinLoc1{
+    position: absolute;
+    left: 16.13%;
+    right: 12.9%;
+    top: 10%;
+    bottom: 10%;
+}
+.pinLocCenter{
+    position: absolute;
+    left: 38.71%;
+    right: 35.48%;
+    top: 32.5%;
+    bottom: 47.5%;
+}
+.rectangle{
+    position: absolute;
+    width: 1920px;
+    height: 115px;
+    left: 0px;
+    top: 0px;
+    margin-top: 45%;
+    background: #5B8CE8;
+}
+.textRectangle{
+    position: absolute;
+    width: 2350px;
+    height: 64px;
+    left: 18px;
+    top: 15px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+
+    color: #0A090A;
+
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.textRectangle span{
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+}
+.secondScreen{
+    position: absolute;
+    top: 110%;
+}
+.aboutScreen{
+    background: #202020;
+}
+.aboutme{
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 876px;
+    top: 99px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+
+    color: #5b8ce8;
+}
+.blurLeft{
+    position: absolute;
+    width: 1733.12px;
+    height: 593.84px;
+    left: -1180px;
+    top: 590.43px;
+
+    background: #3b4fff;
+    opacity: 0.2;
+    border: 1px solid #161516;
+    filter: blur(420px);
+    transform: rotate(-0.68deg);
+}
+
+.myname{
+    position: absolute;
+    width: 290px;
+    height: 73px;
+    left: 825px;
+    top: 179px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 73px;
+
+    color: #E3E2D6;
+}
+
+.coffee{
+    position: absolute;
+    left: 0;
+    margin-left: 946px;
+    top: 0;
+    margin-top: 280px;
+}
+
+.centerText{
+    position: absolute;
+    width: 1303px;
+    height: 327px;
+    left: 330px;
+    top: 347px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #7C7D80;
+}
+
+.correctSign{
+    position: absolute;
+    left: 357px;
+    top: 750px;
+}
+
+.html{
+    position: absolute;
+    width: 73px;
+    height: 37px;
+    left: 397px;
+    top: 755px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+
+    color: #A5A6A8;
+}
+
+.css{
+    position: absolute;
+    width: 73px;
+    height: 37px;
+    left: 815px;
+    top: 755px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+
+    color: #A5A6A8;
+
+}
+
+.correctSign1{
+    position: absolute;
+    left: 776px;
+    top: 750px;
+}
+
+.js{
+    position: absolute;
+    width: 73px;
+    height: 37px;
+    left: 1175px;
+    top: 755px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+
+    color: #A5A6A8;
+}
+
+.correctSign2{
+    position: absolute;
+    left: 1330px;
+    top: 750px;
+}
+
+.bootstrap{
+    position: absolute;
+    width: 73px;
+    height: 37px;
+    left: 1508px;
+    top: 755px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+
+    color: #A5A6A8;
+}
+
+.correctSign3{
+    position: absolute;
+    left: 1666px;
+    top: 750px;
+}
+.thirtyScreen{
+    position: absolute;
+    top: 315%;
+}
+.contactScreen{
+    background: #202020;
+}
+.headerRectangle{
+    position: absolute;
+    width: 1920px;
+    height: 115px;
+    left: 0px;
+    top: -35px;
+
+    background: #5B8CE8;
+}
+
+.contactme{
+    position: absolute;
+    width: 683px;
+    height: 150px;
+    left: 672px;
+    top: 254px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 128px;
+    line-height: 147px;
+
+    color: #E3E2D6;
+}
+.blurLeftCenter{
+    position: absolute;
+    width: 1733.12px;
+    height: 593.84px;
+    left: -1155px;
+    top: 43.43px;
+
+    background: #3b4fff;
+    opacity: 0.2;
+    border: 1px solid #161516;
+    filter: blur(420px);
+    transform: rotate(-0.68deg);
+}
+.contactInfo{
+    position: absolute;
+    width: 636px;
+    height: 82px;
+    left: 652px;
+    top: 503px;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 73px;
+
+    color: #5b8ce8;
+}
+.footerContact{
+    position: absolute;
+    width: 151px;
+    height: 26px;
+    left: 897px;
+    top: 900px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #F1F0E4;
+}
+.container{
+    opacity: 0;
+    transition: opacity .8s ease;
+}
+
+.active .container{
+    opacity: 1;
+}
+
+.scroll{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    left: 895px;
+    top: 80.54%;
+
+}
+.scrolldown{
+    position: absolute;
+    width: 79px;
+    height: 21px;
+    left: 883px;
+    top: 75.54%;
+
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+
+    color: #EFF5F6;
+}
+
+.mouse-animation {
+    animation: ball-scroll 2s linear infinite;
+}
+@keyframes ball-scroll {
+    0% {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
