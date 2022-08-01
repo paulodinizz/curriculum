@@ -383,29 +383,76 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-body" style="background-color: red;">
-                    <div class="modal-header">
-                        <div class="headerIn" style="display: flex; flex-direction:row; align-items: center;padding-left: 150px;">
-                            <img src="linkedin.png" alt="" style="width: 50px; ">
+                <div class="linkedin-body">
+                    <div class="linkedin-header">
+                        <div class="header-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="40" height="40" focusable="false">
+                                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                            </svg>
+                            <div class="header-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="header-option">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7z"></path>
+                                </svg>
+                                <h3>Inicio</h3>
+                            </div>
+                            <div class="header-option">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"></path>
+                                </svg>
+                                <h3>Minha Rede</h3>
+                            </div>
+                            <div class="header-option">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"></path>
+                                </svg>
+                                <h3>Vagas</h3>
+                            </div>
+                            <div class="header-option">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"></path>
+                                </svg>
+                                <h3>Mensagens</h3>
+                            </div>
+                            <div class="header-option">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"></path>
+                                </svg>
+                                <h3>Notificações</h3>
+                            </div>
+                            <div class="header-option">
+                                <img style="border-radius: 50%;" width="24" src="https://media-exp1.licdn.com/dms/image/D4E35AQHzHO4UMNSTyQ/profile-framedphoto-shrink_100_100/0/1653862298603?e=1659981600&amp;v=beta&amp;t=WzqtxqD3x3PfqD-SFVfDmbllZCh5MVtZ8TIGa1iW42g" height="24" alt="Paulo Henrique Diniz" id="ember18" class="global-nav__me-photo ember-view" >
+                                <h3>Eu</h3>
+                            </div>
                         </div>
                     </div>
-                    <br><br><br>
-                    <div class="container" >
-                        <div >
-                            <div>
-                                <div class="backgroundImage">
-                                    <div class="imgTemp"></div>
-                                </div>
-                            </div>
-                            <div class="profileIcon" style="padding-left: 150px; position: relative; top: -100px;">
-                                <div class="circle-imageIn"></div>
+                    <div class="linkedin-main">
+                        <div class="linkedin-main-header">
+                            <img class="profile-background-image__image relative full-width full-height" id="profile-background-image-target-image" alt="Imagem de fundo" src="https://media-exp1.licdn.com/dms/image/C4E16AQGocvYHGL1SXA/profile-displaybackgroundimage-shrink_200_800/0/1653761681569?e=1665014400&amp;v=beta&amp;t=EnPSgHN4lqCBmczt9wWVah8RYKUL9hJ9C5dloYSqLnA" style="">
+                            <img class="profile-img" width="200" src="https://media-exp1.licdn.com/dms/image/D4E35AQHzHO4UMNSTyQ/profile-framedphoto-shrink_200_200/0/1653862298603?e=1659985200&amp;v=beta&amp;t=bnfs7xdft123emSs69XS88NC89gydaRb9Yj5BkQyqVg" height="200" alt="Paulo Henrique Diniz, #OPEN_TO_WORK" id="ember36" class="ember-view profile-photo-edit__preview">
+                        </div>
+                        <div class="linkedin-main-info">
+                            <h1>Paulo Henrique Diniz</h1>
+                            <p>Desenvolvedor Front-end Junior - CSS | HTML | JAVASCRIPT | BOOTSTRAP</p>
+                            <p class="loc">Itaúna, Minas Gerais, Brasil </p>
+                        </div>
+                        <div class="linkedin-main-job">
+                            <div class="linkedin-main-job-info">
+                                <h3>Buscando emprego</h3>
+                                <p>Cargos de Desenvolvedor da Web</p>
+                                <a href="#">Ver todos os detalhes</a>
                             </div>
                         </div>
-                        <div class="infoIn" style="padding-left: 150px; top: -70px; position: relative; line-height: 0;">
-                            <b><p style="font-size: 30px; margin-bottom: 20px;">Paulo Henrique Diniz</p></b>
-                            <p style="font-size: 18px;">Desenvolvedor Front-end Junior - HTML | CSS | JAVASCRIPT | BOOTSTRAP</p>
-                            <small><p style="color: gray;">Itaúna, Minas Gerais, Brasil</p></small>
-                        </div>
+                    </div>
+                    <div class="linkedin-about">
+                        <h2>Sobre</h2>
+                        <p>Desenvolvedor front-end, sem experiência de atuação em grandes projetos. Comecei os estudos sobre programação no ínicio de 2022 e me identifiquei mais com as linguagens usadas no desenvolvimento front-end, mas futuramente pretendo me tornar um desenvolvedor full stack e assim conseguir executar com excelência qualquer atividade que for designada a mim.</p>
+                        <p>Me considero uma pessoa esforçada, sempre dou o meu melhor e gosto de estar em constante aprendizagem para adquirir novos conhecimentos!</p>
                     </div>
                 </div>
             </div>

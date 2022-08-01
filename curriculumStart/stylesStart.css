@@ -315,38 +315,145 @@ footer i {
   height: 30px;
   color: #fff;
 }
-
-.headerIn{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  width: 100%;
-  height: 70px;
-}
-
-.allContent{
+.linkedin-body{
+  background-color: #f3f2ef;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
 }
-.imgTemp{
-  background-color: #000;
-  width: 90%;
-  height: 250px;
+
+.header-left svg {
+  object-fit: contain;
+  margin-right: 10px;
+}
+.linkedin-header{
+  width: 100%;
+  position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 999;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding: 10px;
+  background-color: white;
+}
+
+.header-left{
+  display: flex;
+}
+.header-right{
+  display: flex;
+}
+.header-search{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 40px;
+  color: gray;
+  background-color: #eef3f8;
+}
+.header-search input{
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.header-option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+}
+.header-option:hover{
+  color: black;
+}
+.header-option h3{
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.linkedin-main{
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.linkedin-main-header .profile-background-image__image{
+  
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+.linkedin-main-header{
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.backgroundImage{
-  padding-left: 120px;
+.linkedin-main-header .profile-img{
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 30px; 
+  margin-top: 70px;
 }
-.circle-imageIn{
-  width: 150px;
-  height: 150px;
-  background-image: url('../curriculumStart/myPhoto.png');
-  background-size: cover;
-  border: 4px solid #fff;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
+
+.linkedin-main-info{
+  margin-left: 30px; 
+  margin-top: 90px;
+}
+.linkedin-main-info h1{
+  font-size: 30px;
+}
+.linkedin-main-info p{
+  line-height: 0.5px;
+}
+.linkedin-main-info .loc{
+  color: gray;
+  font-size: 14px;
+}
+.linkedin-main-job{
+  background-color: #E9E5DF;
+  width: 40%;
+  height: 80px;
+  margin-left: 30px;
+  margin: 30px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.linkedin-main-job-info h3{
+  font-size: 20px;
+  margin-left: 12px;
+}
+.linkedin-main-job-info p{
+  color: gray;
+  font-size: 13px;
+  line-height: 0.5px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+}
+.linkedin-main-job-info a{
+  font-size: 13px;
+  margin-left: 12px;
+}
+
+.linkedin-about{
+  background-color: #FFFFFF;
+  margin: 30px;
+  border-radius: 10px;
+  width: 71%;
+}
+.linkedin-about p{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.linkedin-about h2{
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 25px;
 }
