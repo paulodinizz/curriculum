@@ -15,16 +15,18 @@
         <map name="image-map">
             <area title="Click to see more about me" href="" coords="1327,697,1658,717,1653,949,1638,1033,1509,1000,1473,949,1439,939,1402,948,1382,965,1378,987,1367,1000,1238,980,1280,936,1307,904" shape="poly">
             <area title="Press enter to see my contact information" href="#cellphone" coords="1199,917,1249,905,1187,866,1134,875" shape="poly">
-            <g title="Click to see some project i created">
-                <area href="" coords="446,58,608,67,602,336,449,336" shape="poly">
-                <area href="" coords="639,89,800,96,793,363,729,365,710,326,676,321,656,326,642,352,639,365" shape="poly">
-                <area href="" coords="429,338,425,189,167,167,174,333" shape="poly">
-                <area href="" coords="106,153,93,328,149,319,162,174" shape="poly">
-                <area href="" coords="295,346,300,487,554,472,554,348" shape="poly">
-                <area href="" coords="178,350,188,335,188,394,254,396,256,499,181,509,166,548" shape="poly">
-                <area href="" coords="564,387,568,499,595,501,581,469,574,448,578,435,625,401,635,387" shape="poly">
-                <area href="" coords="729,381,761,387,761,426" shape="poly">
-            </g>
+            <a data-toggle="modal" data-target="#linkedinModalCenter">
+                <g title="Click to see some project i created">
+                    <area href="" coords="446,58,608,67,602,336,449,336" shape="poly">
+                    <area href="" coords="639,89,800,96,793,363,729,365,710,326,676,321,656,326,642,352,639,365" shape="poly">
+                    <area href="" coords="429,338,425,189,167,167,174,333" shape="poly">
+                    <area href="" coords="106,153,93,328,149,319,162,174" shape="poly">
+                    <area href="" coords="295,346,300,487,554,472,554,348" shape="poly">
+                    <area href="" coords="178,350,188,335,188,394,254,396,256,499,181,509,166,548" shape="poly">
+                    <area href="" coords="564,387,568,499,595,501,581,469,574,448,578,435,625,401,635,387" shape="poly">
+                    <area href="" coords="729,381,761,387,761,426" shape="poly">
+                </g>
+            </a>
             <g title="Click to see my skills">
                 <area href="" coords="1344,158,1436,151,1436,219,1475,214,1472,327,1375,324,1378,259,1341,261" shape="poly">
                 <area href="" coords="1490,300,1655,295,1657,90,1494,103" shape="poly">
@@ -346,6 +348,65 @@
                         </div>
                         <hr style="margin-left: 10px; margin-right: 10px;">
                     </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal navPC" id="linkedinModalCenter" tabindex="-1" role="dialog" aria-labelledby="linkedinModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl"role="document">
+            <div class="modal-content ">
+                <div class="headerNav">
+                    <div class="modal-header">
+                        <div>
+                            <div class="git">
+                                <div class="topTextGit" style="display: flex; flex-direction:row; align-items:center; justify-content:center">
+                                    <i class="fa-brands fa-github"></i>
+                                    <p style="padding-top: 14px; padding-left: 5px;">paulodinizz ( Paulo Henrique Diniz )</p>
+                                </div>
+                            </div>
+                            <div class="linkedin">
+                                <div class="topTextLinkedin" style="display: flex; flex-direction:row; align-items:center; justify-content:center">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <p style="padding-top: 14px; padding-left: 5px;">Paulo Henrique Diniz | Linkedin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="searchBar">
+                            <div class="arrow" style="padding-top: 10px;filter: invert(1);">
+                                <i class="fa-solid fa-arrow-left-long" style="padding-left: 30px;"></i>
+                                <i class="fa-solid fa-arrow-rotate-right" style="padding-left: 30px;" ></i>
+                            </div>
+                            <div class="linkbar" style="display: flex; flex-direction:row; ">
+                                <i class="fa-solid fa-lock" style="padding-left: 25px; padding-top: 7px;"></i>
+                                <p><p style="color: gray; padding-left: 30px; padding-top: 4px;">https://</p><p style="padding-top: 4px;">www.linkedin.com</p><p style="color: gray; padding-top: 4px;">/in/paulo-henrique-diniz-8403b0240/</p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body" style="background-color: red;">
+                    <div class="modal-header">
+                        <div class="headerIn" style="display: flex; flex-direction:row; align-items: center;padding-left: 150px;">
+                            <img src="linkedin.png" alt="" style="width: 50px; ">
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="container" >
+                        <div >
+                            <div>
+                                <div class="backgroundImage">
+                                    <div class="imgTemp"></div>
+                                </div>
+                            </div>
+                            <div class="profileIcon" style="padding-left: 150px; position: relative; top: -100px;">
+                                <div class="circle-imageIn"></div>
+                            </div>
+                        </div>
+                        <div class="infoIn" style="padding-left: 150px; top: -70px; position: relative; line-height: 0;">
+                            <b><p style="font-size: 30px; margin-bottom: 20px;">Paulo Henrique Diniz</p></b>
+                            <p style="font-size: 18px;">Desenvolvedor Front-end Junior - HTML | CSS | JAVASCRIPT | BOOTSTRAP</p>
+                            <small><p style="color: gray;">Itaúna, Minas Gerais, Brasil</p></small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
